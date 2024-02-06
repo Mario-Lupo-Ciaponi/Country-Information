@@ -2,7 +2,7 @@
 This is a console app in which you can type a country and you will get information about it. This program uses the
 library "countryinfo".
 
-## Information give:
+## Information given:
 - Language/s;
 - Capital city;
 - Population;
