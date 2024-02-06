@@ -28,7 +28,7 @@ def showing_country_information(country_information, country_name):
     print(f"Calling code: +{", ".join(country_information.calling_codes())}")
     print(f"Time zone: {", ".join(country_information.timezones())}")
     print(f"Domain: {", ".join(country_information.tld())}")
-    print(f"More information: {country_information.wiki()}")
+    print(f"More information: {country_information.wiki()}\n")
 
 
 def main():
@@ -36,9 +36,15 @@ def main():
      This is the main function in which you give the name of the country.
     """
     country_name = input("Type the name of the country that you want to see the information: ")
-    country_information = getting_country_information(country_name)
+    while True:
+        country_information = getting_country_information(country_name)
+        showing_country_information(country_information, country_name)
 
-    showing_country_information(country_information, country_name)
+        country_name = input("If you want to see the information of another country type its name."
+                                    "If you want to quit type 'Exit'.")
+
+        if country_name == "Exit":
+            break
 
 
 main()
