@@ -22,7 +22,7 @@ def showing_country_information(country_information, country_name):
     print(f"Native's name: {country_information.native_name()}")
     print(f"Resident's name: {country_information.demonym()}")
     print(f"Area: {country_information.area()} km²")
-    print(f"Province: {", ".join(country_information.provinces())}")
+    print(f"Provinces: {", ".join(country_information.provinces())}")
     print(f"Region: {country_information.subregion()}")
     print(f"Borders: {", ".join(country_information.borders())}")
     print(f"Calling code: +{", ".join(country_information.calling_codes())}")
@@ -41,7 +41,7 @@ def main():
         showing_country_information(country_information, country_name)
 
         country_name = input("If you want to see the information of another country type its name."
-                                    "If you want to quit type 'Exit'.")
+                                    "If you want to quit type 'Exit'. ")
 
         if country_name == "Exit":
             break

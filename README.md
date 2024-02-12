@@ -3,20 +3,22 @@ This is a console app in which you can type a country and you will get informati
 library "countryinfo".
 
 ## Information given:
-- Language/s;
-- Capital city;
-- Population;
-- Currency/ies
-- Native's name
-- Resident's name;
-- Area(km²);
-- Province
-- Region;
-- Borders;
-- Calling code;
-- Time zone;
-- Domain;
-- More information(link to wikipedia).
+I will use the country Italy as a example:
+
+- Language/s(e.g. "it");
+- Capital city(e.g. "Rome");
+- Population(e.g. "60769102");
+- Currency/ies(e.g. "EUR");
+- Native's name(e.g. "Italia");
+- Resident's name(e.g. "Italian");
+- Area(km²)(e.g. "301336 km²");
+- Provinces(e.g. "Abruzzo, Basilicata, Calabria, Campania and ect.");
+- Region(e.g. "Southern Europe");
+- Borders(e.g. "AUT, FRA, SMR, SVN, CHE, VAT");
+- Calling code(e.g. "+39");
+- Time zone(e.g. "UTC+01:00");
+- Domain(e.g. ".it");
+- More information(link to wikipedia)(e.g. "http://en.wikipedia.org/wiki/italy").
 
 ## Purpose:
 To practice API and GitHub skills and to increase my portfolio.
