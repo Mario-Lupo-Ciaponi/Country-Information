@@ -21,7 +21,8 @@ I will use the country Italy as a example:
 - More information(link to wikipedia)(e.g. "http://en.wikipedia.org/wiki/italy").
 
 ## Version 2.0:
-In the new version there is a interface. It uses more libraries, it prints the flag and some formatting is fixed.
+In the new version there is ann interface using 
+the Tkinter built-in framework. It uses more libraries, it prints the flag and some formatting is fixed.
 
 ## Purpose:
 To practice API and GitHub skills and to increase my portfolio.
