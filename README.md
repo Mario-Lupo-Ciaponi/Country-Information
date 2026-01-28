@@ -3,7 +3,7 @@ This is a console app in which you can type a country and you will get informati
 library "countryinfo".
 
 ## Information given:
-I will use the country Italy as a example:
+I will use the country Italy as an example:
 
 - Language/s(e.g. "italian");
 - Capital city(e.g. "Rome");
